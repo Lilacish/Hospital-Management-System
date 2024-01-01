@@ -56,7 +56,6 @@ void HospitalStaffDepartment::addCleaner( Cleaner& cleaner) {
     else {
         cout << "Unable to open file: " << "cleaner.csv" << endl;
     }
-   
 }
 
 void HospitalStaffDepartment::addAdminStaff(AdminStaff& adminStaff) {

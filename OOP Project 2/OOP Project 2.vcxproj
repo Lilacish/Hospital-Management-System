@@ -150,7 +150,6 @@
     <ClCompile Include="..\..\OOP Project\OOP Project\product.cpp" />
     <ClCompile Include="..\..\OOP Project\OOP Project\qualityassurance.cpp" />
     <ClCompile Include="..\..\OOP Project\OOP Project\ReportsAndAnalytics.cpp" />
-    <ClCompile Include="address.cpp" />
     <ClCompile Include="Dept.cpp" />
     <ClCompile Include="person.cpp" />
     <ClCompile Include="Persondata.cpp" />
