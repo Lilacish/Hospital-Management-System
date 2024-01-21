@@ -1,10 +1,2 @@
-1,Emergency,1
-2, Emergency, Occupied
-3,OR,0
-4,X-RAY LAB,0
-5,Dentistry,1
-6,Emergency,1
-7,ICU,0
-8,OR,1
-9,X-RAY LAB,0
-10,Dentistry,1
+001,Dr. Ahmed,20,0343242423,28-F Dha phase 1,9 to 5,90000,Senior Doctor
+002,Dr. tanveer,23,03423423432,90-A Bahria town,9 to 5,80000,Surgeon

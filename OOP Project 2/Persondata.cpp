@@ -6,7 +6,7 @@
 
 Person::Person(const string& id, const string& name, string& age, const string& contactNumber, const string& address)
     : id(id), name(name), age(age), contactNumber(contactNumber), address(address) {}
-
+Person::Person(){}
 string Person::getFormattedDetails() const {
     stringstream ss;
     ss << id << "," << name << "," << age << "," << contactNumber << "," << address;
@@ -35,18 +35,26 @@ void PersonManager::removePerson(const string& id, const string& filename) {
         }
         else {
             cout << "Person with the ID: " << id << " has been removed." << endl;
+
         }
     }
+
+    file.close();
+    tempFile.close();
     string a = filename + ".csv";
+    const char* c = a.c_str();
+
     string b = filename + "temp_.csv";
-    remove(a.c_str());
-    rename(b.c_str(), a.c_str());
+    const char* d = b.c_str();
+    std::remove(a.c_str());
+    int x = rename(d, c);
+
 }
 // ... Other PersonManager methods remain unchanged ...
 void PersonManager::displayAllPeople(const string& filename) const {
     ifstream file(filename + ".csv");
     if (!file.is_open()) {
-        cerr << "Error opening file: " << filename << endl;
+        cerr << "Error opening file: " << filename <<".csv" << endl;
         return;
     }
     string line;

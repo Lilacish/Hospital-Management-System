@@ -240,25 +240,28 @@ public:
 class HospitalStaffDepartment: public PersonManager {
 public:
     HospitalStaffDepartment();
-    void addCleaner(Cleaner& cleaner);
+    void addCleaner(string& dept,Cleaner& cleaner);
  //   void addGuard( Guard& guard);
-    void addAdminStaff( AdminStaff& adminStaff);
-    void addDoctor( Doctor& doctor);
-    void addNurse( Nurse& nurse);
+    void addAdminStaff(string& dept, AdminStaff& adminStaff);
+    void addDoctor(string& dept, Doctor& doctor);
+    void addNurse(string& dept, Nurse& nurse);
 
-    void addFacilityServicesStaff( FacilityServicesStaff& facilityStaff);
-    void addSocialServicesStaff( SocialServicesStaff& socialStaff);
-    void addSupportStaff( SupportStaff& supportStaff);
-    void addHospitalist( Hospitalist& hospitalist);
-    void addDietaryServiceStaff( DietaryServiceStaff& dietaryStaff);
+    void addFacilityServicesStaff(string& dept, FacilityServicesStaff& facilityStaff);
+    void addSocialServicesStaff(string& dept, SocialServicesStaff& socialStaff);
+    void addSupportStaff(string& dept, SupportStaff& supportStaff);
+    void addHospitalist(string& dept, Hospitalist& hospitalist);
+    void addDietaryServiceStaff(string& dept, DietaryServiceStaff& dietaryStaff);
 //    void addEMSStaff( EMSStaff& emsStaff);
 //    void addInfectionControlStaff( InfectionControlStaff& infectionControlStaff);
     void displayAllPeople(const string& filename, string& category) const;
   //  void displayStaffmember(string& filename);
-    void removeStaffMember(const string& id, string& filename);
+    void removeStaffMember(const string& id, const string& filename);
     void displayAllStaff(string& dept) const;
-  
-    
+    void seedoctorAvailability(string& deptt);
+    void bookappointment(string deptt, string docId, string time, const string address);
+    void freeslot(string deptt, string docId, string time);
+    void checkDoctorAvailability(string deptt, const string& doctorId);
+    void checkallDoctorAvailability(string deptt);
 
    
 // void addDiagnosticTherapeuticStaff(const DiagnosticTherapeuticStaff& diagnosticStaff);

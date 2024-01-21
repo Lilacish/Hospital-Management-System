@@ -51,9 +51,6 @@
     <ClCompile Include="..\..\OOP Project\OOP Project\MAIN HMS.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\OOP Project\OOP Project\nurse_coordination.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\OOP Project\OOP Project\PatientFeedback.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -70,9 +67,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\OOP Project\OOP Project\ReportsAndAnalytics.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="person.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Persondata.cpp">
@@ -113,9 +107,6 @@
     <ClInclude Include="..\..\OOP Project\OOP Project\laboratory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\OOP Project\OOP Project\nurse_coordination.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\OOP Project\OOP Project\patientfeedback.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -132,9 +123,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\OOP Project\OOP Project\ReportsAndAnalytics.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="person.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\OOP Project\OOP Project\MAIN HMS.h">

@@ -143,7 +143,6 @@
     <ClCompile Include="..\..\OOP Project\OOP Project\inventory.cpp" />
     <ClCompile Include="..\..\OOP Project\OOP Project\laboratory.cpp" />
     <ClCompile Include="..\..\OOP Project\OOP Project\MAIN HMS.cpp" />
-    <ClCompile Include="..\..\OOP Project\OOP Project\nurse_coordination.cpp" />
     <ClCompile Include="..\..\OOP Project\OOP Project\PatientFeedback.cpp" />
     <ClCompile Include="..\..\OOP Project\OOP Project\patientscoordinationdepartment.cpp" />
     <ClCompile Include="..\..\OOP Project\OOP Project\pharmacy.cpp" />
@@ -151,7 +150,6 @@
     <ClCompile Include="..\..\OOP Project\OOP Project\qualityassurance.cpp" />
     <ClCompile Include="..\..\OOP Project\OOP Project\ReportsAndAnalytics.cpp" />
     <ClCompile Include="Dept.cpp" />
-    <ClCompile Include="person.cpp" />
     <ClCompile Include="Persondata.cpp" />
     <ClCompile Include="security.cpp" />
     <ClCompile Include="staff.cpp" />
@@ -166,7 +164,6 @@
     <ClInclude Include="..\..\OOP Project\OOP Project\Inventory.h" />
     <ClInclude Include="..\..\OOP Project\OOP Project\laboratory.h" />
     <ClInclude Include="..\..\OOP Project\OOP Project\MAIN HMS.h" />
-    <ClInclude Include="..\..\OOP Project\OOP Project\nurse_coordination.h" />
     <ClInclude Include="..\..\OOP Project\OOP Project\patientfeedback.h" />
     <ClInclude Include="..\..\OOP Project\OOP Project\patientscoordinationdepartment.h" />
     <ClInclude Include="..\..\OOP Project\OOP Project\pharmacy.h" />
@@ -174,7 +171,6 @@
     <ClInclude Include="..\..\OOP Project\OOP Project\qualityassurance.h" />
     <ClInclude Include="..\..\OOP Project\OOP Project\ReportsAndAnalytics.h" />
     <ClInclude Include="Dept.h" />
-    <ClInclude Include="person.h" />
     <ClInclude Include="Persondata.h" />
     <ClInclude Include="security.h" />
     <ClInclude Include="staff.h" />

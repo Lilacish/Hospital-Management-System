@@ -10,6 +10,7 @@ using namespace std;
 
 class Person {
 public:
+    Person();
     Person(const string& id, const string& name, string& age, const string& contactNumber, const string& address);
     virtual string getFormattedDetails() const;
     string getId() const;
